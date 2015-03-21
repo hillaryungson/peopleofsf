@@ -1,0 +1,35 @@
+{
+  "name": "WordPress-WPEngine-Deploy",
+  "version": "1.0.0",
+  "description": "Using grunt for optimizing and cache-busting assets",
+  "homepage": "http://github.com/creativecoder/WordPress-WPEngine-Deploy",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-cssmin": "~0.9.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-notify": "~0.2.17",
+    "grunt-search": "^0.1.3",
+    "grunt-wp-assets": "~0.2.2",
+    "grunt-shell": "~0.6.4",
+    "grunt-ssh": "~0.10.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "load-grunt-tasks": "~0.4.0"
+  },
+  "author": {
+    "name": "Grant Kinney",
+    "email": "grant@verismo.io",
+    "url": "http://github.com/creativecoder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/WordPress-WPEngine-Deploy"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.21"
+  }
+}

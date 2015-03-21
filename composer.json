@@ -1,0 +1,67 @@
+{
+	"name": "WordPress-WPEngine-Deploy",
+	"type": "project",
+	"license": "MIT",
+	"description": "WordPress stack for deployment on WPEngine",
+	"homepage": "http://github.com/creativecoder/WordPress-WPEngine-Deploy",
+	"authors": [
+		{
+			"name": "Grant Kinney",
+			"email": "grant@verismo.io",
+			"homepage": "https://github.com/creativecoder"
+		}
+	],
+	"keywords": [
+		"wordpress", "stack", "wpengine", "composer", "deployment"
+	],
+	"support": {
+		"issues": "https://github.com/creativecoder/WordPress-WPEngine-Deploy/issues"
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"cp -n vendor/creativecoder/wordpress-subdir-bootstrap/{.editorconfig,.env,.htaccess,.jshintrc,enqueue-scripts.php,index.php,sftp.json,wp-cli.local.yml,wp-config.php} ./"
+		]
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://wpackagist.org"
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "wordpress",
+				"version": "3.8.1",
+				"type": "webroot",
+				"dist": {
+					"type": "zip",
+					"url": "https://github.com/WordPress/WordPress/archive/3.8.1.zip"
+				},
+				"require" : {
+					"fancyguy/webroot-installer": "1.1.0"
+				}
+			}
+		}
+	],
+	"require": {
+		"php": ">=5.3.2",
+		"wordpress": "3.8.1",
+		"creativecoder/wordpress-subdir-bootstrap": "dev-master",
+		"fancyguy/webroot-installer": "~1.1.0",
+		"composer/installers": "~1.0.6",
+		"vlucas/phpdotenv": "~1.0.5",
+		"ccampbell/chromephp": "dev-master"
+	},
+	"extra": {
+		"installer-paths": {
+			"wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+			"wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+			"wp-content/themes/{$name}/": ["type:wordpress-theme"]
+		},
+		"webroot-dir": "wp",
+		"webroot-package": "wordpress"
+	}
+}
