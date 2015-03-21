@@ -9,11 +9,7 @@
 				
 				<div class="site-info">
 					<p>
-						<?php
-							$copyright_text = stripcslashes( get_option( 'copyright_text', "" ) );
-							
-							echo $copyright_text;
-						?>
+						Copyright © 2015 People of SF
 					</p>
 				</div>
 			</div>

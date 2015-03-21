@@ -97,7 +97,7 @@
 						if ( $select_tagline == 'WordPress Tagline' )
 						{
 							?>
-								<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+								<p class="site-description">vignettes of the bay</p>
 							<?php
 						}
 						else
