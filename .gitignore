@@ -1,0 +1,136 @@
+# WPEngine Deploy - wp-content folder #
+###########################################
+
+# Ignore all files except for the wp-content directory
+*
+# Don't ignore directories themselves, else we can't add anything to the repository
+!*/
+# Don't ignore the the following directory
+!**/wp-content/*
+# or its subdirectories
+!**/wp-content/**/*
+# Don't forget .gitignore
+!.gitignore
+# Specify files to include in project root
+!.sql/
+!composer.json
+!composer.lock
+!Gruntfile.js
+!package.json
+!README.md
+
+# Always-ignore extensions #
+############################
+*.bak
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+*.sass-cache
+
+# OS generated files #
+######################
+*~
+.svn
+.cvs
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+
+# Folders to ignore #
+#####################
+.hg
+.svn
+.CVS
+.idea
+node_modules
+dist
+.rvmrc
+.vagrant
+vendor
+
+# Wordpress files #
+###################
+.env
+sftp.json
+**/wp/
+**/wp-content/uploads/
+**/wp-content/blogs.dir/
+**/wp-content/upgrade/
+**/wp-content/backup-db/
+**/wp-content/object-cache.php
+**/wp-content/advanced-cache.php
+**/wp-content/wp-cache-config.php
+**/wp-content/cache/
+**/wp-content/cache/supercache/
+**/wp-content/backups/
+sitemap.xml
+sitemap.xml.gz
+
+# Minified files #
+##################
+enqueue-scripts.php
+**/wp-content/themes/twentyfourteen/**/*.min.css
+**/wp-content/themes/twentyfourteen/**/*.min.js
+
+# WPEngine specific #
+#####################
+
+.smushit-status
+_wpeprivate
+
+# WPEngine large/disallowed file types
+# a CDN should be used for these
+*.hqx
+*.bin
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
+*.img
+*.msi
+*.msp
+*.msm
+*.mid
+*.midi
+*.kar
+*.mp3
+*.ogg
+*.m4a
+*.ra
+*.3gpp
+*.3gp
+*.mp4
+*.mpeg
+*.mpg
+*.mov
+*.webm
+*.flv
+*.m4v
+*.mng
+*.asx
+*.asf
+*.wmv
+*.avi
+
+/wp-includes/
