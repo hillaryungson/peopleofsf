@@ -134,3 +134,4 @@ _wpeprivate
 *.avi
 
 /wp-includes/
+/wp-admin/
