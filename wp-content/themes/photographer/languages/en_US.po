@@ -1,0 +1,742 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Photographer v1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-02-08 13:21:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: functions.php:1339
+#@ read
+msgid "Custom field updated."
+msgstr ""
+
+#: functions.php:1341
+#@ read
+msgid "Custom field deleted."
+msgstr ""
+
+#: functions.php:1357
+#@ read
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: functions.php:1297
+#@ read
+msgid "Portfolio Item"
+msgstr ""
+
+#: functions.php:1374
+#: functions.php:1445
+#: functions.php:1455
+#@ read
+msgid "Departments"
+msgstr ""
+
+#: functions.php:1446
+#@ read
+msgid "Department"
+msgstr ""
+
+#: functions.php:1375
+#: functions.php:1591
+#@ read
+msgid "Short Description"
+msgstr ""
+
+#: audio.php:30
+#: blog-regular_no_sidebar.php:60
+#: blog-regular_sidebar.php:60
+#: functions.php:489
+#: functions.php:1300
+#: functions.php:1451
+#: functions.php:1474
+#: image.php:30
+#: post-no_sidebar.php:52
+#: post-sidebar.php:52
+#: video.php:30
+#@ read
+msgid "Edit"
+msgstr ""
+
+#: functions.php:304
+#: functions.php:1372
+#@ read
+msgid "Featured Image"
+msgstr ""
+
+#: audio.php:45
+#: blog-regular_no_sidebar.php:118
+#: blog-regular_sidebar.php:118
+#: image.php:46
+#: page.php:38
+#: portfolio_item-standard.php:27
+#: post-no_sidebar.php:79
+#: post-sidebar.php:79
+#: template-full_width_page.php:41
+#: template-medium_width_page.php:41
+#: template-page_with_sidebar.php:41
+#: video.php:46
+#@ read
+msgid "Pages:"
+msgstr ""
+
+#: functions.php:1296
+#@ read
+msgid "Portfolio"
+msgstr ""
+
+#: functions.php:1298
+#: functions.php:1299
+#: functions.php:1453
+#: functions.php:1476
+#@ read
+msgid "Add New"
+msgstr ""
+
+#: functions.php:1304
+#: functions.php:1447
+#: functions.php:1470
+#: searchform.php:8
+#@ read
+msgid "Search"
+msgstr ""
+
+#: functions.php:1371
+#@ read
+msgid "Title"
+msgstr ""
+
+#: functions.php:1373
+#: functions.php:1535
+#@ read
+msgid "Type"
+msgstr ""
+
+#: functions.php:1543
+#@ read
+msgid "Standard"
+msgstr ""
+
+#: functions.php:1512
+#@ read
+msgid "Show All"
+msgstr ""
+
+#: functions.php:245
+#, php-format
+#@ read
+msgid "Page %s"
+msgstr ""
+
+#: comments.php:22
+#, php-format
+#@ read
+msgid "1 Comment %2$s"
+msgid_plural "%1$s Comments %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:42
+#@ read
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:46
+#@ read
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:52
+#@ read
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:64
+#@ read
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:353
+#@ read
+msgid "Home"
+msgstr ""
+
+#: functions.php:678
+#@ read
+msgid "Description:"
+msgstr ""
+
+#: functions.php:688
+#@ read
+msgid "Keywords:"
+msgstr ""
+
+#: functions.php:704
+#: functions.php:706
+#: functions.php:714
+#@ read
+msgid "SEO"
+msgstr ""
+
+#: functions.php:439
+#@ read
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:439
+#@ read
+msgid "(Edit)"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: functions.php:469
+#, php-format
+#@ read
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:477
+#@ read
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:495
+#@ read
+msgid "Reply"
+msgstr ""
+
+#: functions.php:1301
+#@ read
+msgid "New"
+msgstr ""
+
+#: functions.php:1302
+#: functions.php:1448
+#: functions.php:1471
+#@ read
+msgid "All"
+msgstr ""
+
+#: functions.php:1303
+#@ read
+msgid "View"
+msgstr ""
+
+#: functions.php:1305
+#@ read
+msgid "No Items found"
+msgstr ""
+
+#: functions.php:1306
+#@ read
+msgid "No Items found in Trash"
+msgstr ""
+
+#: functions.php:1337
+#, php-format
+#@ read
+msgid "<strong>Updated.</strong> <a target=\"_blank\" href=\"%s\">View</a>"
+msgstr ""
+
+#: functions.php:1343
+#@ read
+msgid "Updated."
+msgstr ""
+
+#: functions.php:1346
+#, php-format
+#@ read
+msgid "Restored to revision from %s"
+msgstr ""
+
+#: functions.php:1348
+#, php-format
+#@ read
+msgid "<strong>Published.</strong> <a target=\"_blank\" href=\"%s\">View</a>"
+msgstr ""
+
+#: functions.php:1350
+#@ read
+msgid "Saved."
+msgstr ""
+
+#: functions.php:1352
+#, php-format
+#@ read
+msgid "Submitted. <a target=\"_blank\" href=\"%s\">Preview</a>"
+msgstr ""
+
+#: functions.php:1354
+#, php-format
+#@ read
+msgid "Scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview</a>"
+msgstr ""
+
+#: functions.php:1359
+#, php-format
+#@ read
+msgid "<strong>Item draft updated.</strong> <a target=\"_blank\" href=\"%s\">Preview</a>"
+msgstr ""
+
+#: functions.php:1378
+#@ read
+msgid "Date"
+msgstr ""
+
+#: functions.php:1452
+#: functions.php:1475
+#@ read
+msgid "Update"
+msgstr ""
+
+#: functions.php:1468
+#: functions.php:1478
+#@ read
+msgid "Portfolio Tags"
+msgstr ""
+
+#: functions.php:1469
+#@ read
+msgid "Portfolio Tag"
+msgstr ""
+
+#: functions.php:1561
+#@ read
+msgid "Direct URL:"
+msgstr ""
+
+#: functions.php:1565
+#@ read
+msgid "Open link in new tab"
+msgstr ""
+
+#: functions.php:1605
+#@ read
+msgid "Details"
+msgstr ""
+
+#: functions.php:2786
+#, php-format
+#@ read
+msgid "You shall not place the %1$s template tag inside the loop on list/archives/search/etc templates."
+msgstr ""
+
+#: functions.php:3055
+#@ read
+msgid "First"
+msgstr ""
+
+#: functions.php:3264
+#@ read
+msgid "Last"
+msgstr ""
+
+#: functions.php:3303
+#@ read
+msgid "Colors"
+msgstr ""
+
+#: functions.php:3310
+#@ read
+msgid "Link Color"
+msgstr ""
+
+#: functions.php:3326
+#@ read
+msgid "Fonts"
+msgstr ""
+
+#: post-no_sidebar.php:105
+#: post-sidebar.php:105
+#@ read
+msgid "PREVIOUS POST"
+msgstr ""
+
+#: post-no_sidebar.php:111
+#: post-sidebar.php:111
+#@ read
+msgid "NEXT POST"
+msgstr ""
+
+#: part-about_author.php:2
+#@ read
+msgid "WRITTEN BY"
+msgstr ""
+
+#: functions.php:696
+#@ read
+msgid "Separate keywords with commas"
+msgstr ""
+
+#: functions.php:854
+#: functions.php:856
+#@ read
+msgid "Title Visibility"
+msgstr ""
+
+#: functions.php:1095
+#: functions.php:1196
+#@ read
+msgid "Title:"
+msgstr ""
+
+#: functions.php:2134
+#@ read
+msgid "NAME"
+msgstr ""
+
+#: functions.php:2139
+#@ read
+msgid "EMAIL"
+msgstr ""
+
+#: functions.php:2144
+#@ read
+msgid "MESSAGE"
+msgstr ""
+
+#: audio.php:25
+#: blog-regular_no_sidebar.php:47
+#: blog-regular_sidebar.php:47
+#: blog-simple_no_sidebar.php:33
+#: blog-simple_sidebar.php:34
+#: image.php:25
+#: post-no_sidebar.php:39
+#: post-sidebar.php:39
+#: video.php:25
+#@ read
+msgid "0 Comment"
+msgstr ""
+
+#: audio.php:25
+#: blog-regular_no_sidebar.php:47
+#: blog-regular_sidebar.php:47
+#: blog-simple_no_sidebar.php:33
+#: blog-simple_sidebar.php:34
+#: image.php:25
+#: post-no_sidebar.php:39
+#: post-sidebar.php:39
+#: video.php:25
+#@ read
+msgid "1 Comment"
+msgstr ""
+
+#: audio.php:25
+#: blog-regular_no_sidebar.php:47
+#: blog-regular_sidebar.php:47
+#: blog-simple_no_sidebar.php:33
+#: blog-simple_sidebar.php:34
+#: image.php:25
+#: post-no_sidebar.php:39
+#: post-sidebar.php:39
+#: video.php:25
+#@ read
+msgid "% Comments"
+msgstr ""
+
+#: part-archive_title.php:38
+#@ read
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: part-archive_title.php:42
+#@ read
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: part-archive_title.php:46
+#: part-archive_title.php:65
+#@ read
+msgid "Archives"
+msgstr ""
+
+#: comments.php:74
+#@ read
+msgid "Leave A Comment"
+msgstr ""
+
+#: functions.php:329
+#@ read
+msgid "Theme Navigation Menu"
+msgstr ""
+
+#: functions.php:517
+#@ read
+msgid "This content is password protected. To view it please enter the password below:"
+msgstr ""
+
+#: functions.php:517
+#@ read
+msgid "Password:"
+msgstr ""
+
+#: functions.php:517
+#: functions.php:2151
+#@ read
+msgid "Submit"
+msgstr ""
+
+#: functions.php:911
+#: functions.php:985
+#@ read
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:919
+#: functions.php:983
+#@ read
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:1020
+#@ read
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:1078
+#@ read
+msgid "- Flickr"
+msgstr ""
+
+#: functions.php:1079
+#@ read
+msgid "Flickr widget."
+msgstr ""
+
+#: functions.php:1102
+#: functions.php:1222
+#@ read
+msgid "User:"
+msgstr ""
+
+#: functions.php:1109
+#: functions.php:1229
+#@ read
+msgid "Number of items to show:"
+msgstr ""
+
+#: functions.php:1177
+#@ read
+msgid "- Social Feed"
+msgstr ""
+
+#: functions.php:1178
+#@ read
+msgid "Social feed widget."
+msgstr ""
+
+#: functions.php:1203
+#@ read
+msgid "Network:"
+msgstr ""
+
+#: functions.php:1376
+#@ read
+msgid "Author"
+msgstr ""
+
+#: functions.php:1449
+#@ read
+msgid "Parent"
+msgstr ""
+
+#: functions.php:1450
+#@ read
+msgid "Parent:"
+msgstr ""
+
+#: functions.php:1454
+#@ read
+msgid "New Name"
+msgstr ""
+
+#: functions.php:1472
+#@ read
+msgid "Parent Tag"
+msgstr ""
+
+#: functions.php:1473
+#@ read
+msgid "Parent Tag:"
+msgstr ""
+
+#: functions.php:1477
+#@ read
+msgid "New Tag Name"
+msgstr ""
+
+#: functions.php:2102
+#@ read
+msgid "What is the sum?"
+msgstr ""
+
+#: searchform.php:3
+#@ read
+msgid "Search for:"
+msgstr ""
+
+#: image.php:53
+#@ read
+msgid "PREVIOUS IMAGE"
+msgstr ""
+
+#: image.php:59
+#@ read
+msgid "NEXT IMAGE"
+msgstr ""
+
+#: part-pagination.php:20
+#@ read
+msgid "<span class=\"meta-nav\">&#8592;</span> Older posts"
+msgstr ""
+
+#: part-pagination.php:26
+#@ read
+msgid "Newer posts <span class=\"meta-nav\">&#8594;</span>"
+msgstr ""
+
+#: 404.php:12
+#@ read
+msgid "PAGE NOT FOUND"
+msgstr ""
+
+#: 404.php:21
+#@ read
+msgid "YOU CAN SEARCH FOR IT"
+msgstr ""
+
+#: 404.php:24
+#@ read
+msgid "enter keyword"
+msgstr ""
+
+#: blog-regular_no_sidebar.php:86
+#: blog-regular_no_sidebar.php:106
+#: blog-regular_no_sidebar.php:111
+#: blog-regular_sidebar.php:86
+#: blog-regular_sidebar.php:106
+#: blog-regular_sidebar.php:111
+#: functions.php:546
+#@ read
+msgid "Read More"
+msgstr ""
+
+#: functions.php:927
+#@ read
+msgid "Footer Social Icons"
+msgstr ""
+
+#: functions.php:936
+#@ read
+msgid "Author Social Icons"
+msgstr ""
+
+#: functions.php:1549
+#@ read
+msgid "Photo Gallery"
+msgstr ""
+
+#: functions.php:3318
+#@ read
+msgid "Link Hover Color"
+msgstr ""
+
+#: part-archive_title.php:6
+#@ read
+msgid "Category"
+msgstr ""
+
+#: part-archive_title.php:14
+#@ read
+msgid "Posts Tagged"
+msgstr ""
+
+#: part-archive_title.php:22
+#@ read
+msgid "Posts By"
+msgstr ""
+
+#: part-archive_title.php:30
+#@ read
+msgid "Date Archives"
+msgstr ""
+
+#: part-archive_title.php:57
+#@ read
+msgid "searched for :"
+msgstr ""
+
+#: part-share_links.php:2
+#@ read
+msgid "SHARE THIS POST"
+msgstr ""
+
+#: part-share_links.php:5
+#@ read
+msgid "I wanted you to see this post"
+msgstr ""
+
+#: part-share_links.php:5
+#@ read
+msgid "Check out this post"
+msgstr ""
+
+#: part-share_links.php:5
+#@ read
+msgid "Email this post to a friend"
+msgstr ""
+
+#: part-share_links.php:7
+#@ read
+msgid "Share this post on Google+"
+msgstr ""
+
+#: part-share_links.php:9
+#@ read
+msgid "Currently reading"
+msgstr ""
+
+#: part-share_links.php:9
+#@ read
+msgid "Share this post with your followers"
+msgstr ""
+
+#: part-share_links.php:11
+#@ read
+msgid "Share this post on Facebook"
+msgstr ""
+
+#: portfolio_item-photo_gallery.php:85
+#: portfolio_item-standard.php:35
+#@ read
+msgid "PREVIOUS"
+msgstr ""
+
+#: portfolio_item-photo_gallery.php:91
+#: portfolio_item-standard.php:41
+#@ read
+msgid "NEXT"
+msgstr ""
+
+#: searchform.php:5
+#@ read
+msgid "Enter Keyword..."
+msgstr ""
+

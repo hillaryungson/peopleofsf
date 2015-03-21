@@ -1,0 +1,704 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cvCard v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-04-13 21:15:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: functions.php:421
+#@ read
+msgid "Navigation Menu"
+msgstr ""
+
+#: functions.php:1888
+#@ read
+msgid "Custom field updated."
+msgstr ""
+
+#: functions.php:1889
+#@ read
+msgid "Custom field deleted."
+msgstr ""
+
+#: functions.php:1898
+#@ read
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: functions.php:1849
+#@ read
+msgid "Portfolio Item"
+msgstr ""
+
+#: functions.php:1914
+#: functions.php:1986
+#: functions.php:1996
+#@ read
+msgid "Departments"
+msgstr ""
+
+#: functions.php:1987
+#@ read
+msgid "Department"
+msgstr ""
+
+#: functions.php:1990
+#@ read
+msgid "Parent Department"
+msgstr ""
+
+#: functions.php:1991
+#@ read
+msgid "Parent Department:"
+msgstr ""
+
+#: functions.php:1995
+#@ read
+msgid "New Department Name"
+msgstr ""
+
+#: functions.php:1915
+#: functions.php:2164
+#@ read
+msgid "Short Description"
+msgstr ""
+
+#: functions.php:578
+#: functions.php:1852
+#: functions.php:1992
+#: functions.php:2014
+#: single-post.php:56
+#@ read
+msgid "Edit"
+msgstr ""
+
+#: functions.php:396
+#: functions.php:1912
+#@ read
+msgid "Featured Image"
+msgstr ""
+
+#: audio.php:28
+#: image.php:25
+#: index.php:95
+#: page.php:23
+#: single-portfolio.php:103
+#: single-post.php:82
+#: template-full_width_page.php:29
+#: video.php:28
+#@ read
+msgid "Pages:"
+msgstr ""
+
+#: functions.php:1848
+#@ read
+msgid "Portfolio"
+msgstr ""
+
+#: functions.php:1850
+#: functions.php:1851
+#: functions.php:1994
+#: functions.php:2016
+#@ read
+msgid "Add New"
+msgstr ""
+
+#: functions.php:1856
+#: functions.php:1988
+#: functions.php:2010
+#: header.php:292
+#@ read
+msgid "Search"
+msgstr ""
+
+#: functions.php:1911
+#@ read
+msgid "Title"
+msgstr ""
+
+#: functions.php:1913
+#: functions.php:2074
+#@ read
+msgid "Type"
+msgstr ""
+
+#: functions.php:2081
+#@ read
+msgid "Standard"
+msgstr ""
+
+#: functions.php:2049
+#@ read
+msgid "Show All"
+msgstr ""
+
+#: functions.php:335
+#, php-format
+#@ read
+msgid "Page %s"
+msgstr ""
+
+#: 404.php:12
+#@ read
+msgid "404"
+msgstr "404"
+
+#: single-post.php:32
+#@ read
+msgid "posted in"
+msgstr ""
+
+#: single-post.php:42
+#@ read
+msgid "on"
+msgstr ""
+
+#: single-post.php:49
+#@ read
+msgid "by"
+msgstr ""
+
+#: single-post.php:51
+#@ read
+msgid "View all posts by "
+msgstr ""
+
+#: comments.php:17
+#, php-format
+#@ read
+msgid "1 Comment %2$s"
+msgid_plural "%1$s Comments %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:36
+#@ read
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:40
+#@ read
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:47
+#@ read
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:61
+#@ read
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:446
+#@ read
+msgid "Home"
+msgstr ""
+
+#: functions.php:717
+#@ read
+msgid "Description:"
+msgstr ""
+
+#: functions.php:726
+#@ read
+msgid "Keywords:"
+msgstr ""
+
+#: functions.php:744
+#: functions.php:745
+#: functions.php:752
+#@ read
+msgid "SEO"
+msgstr ""
+
+#: functions.php:531
+#@ read
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:531
+#@ read
+msgid "(Edit)"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: functions.php:559
+#, php-format
+#@ read
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:567
+#@ read
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:585
+#@ read
+msgid "Reply"
+msgstr ""
+
+#: functions.php:1853
+#@ read
+msgid "New"
+msgstr ""
+
+#: functions.php:1854
+#: functions.php:1989
+#: functions.php:2011
+#@ read
+msgid "All"
+msgstr ""
+
+#: functions.php:1855
+#@ read
+msgid "View"
+msgstr ""
+
+#: functions.php:1857
+#@ read
+msgid "No Items found"
+msgstr ""
+
+#: functions.php:1858
+#@ read
+msgid "No Items found in Trash"
+msgstr ""
+
+#: functions.php:1887
+#, php-format
+#@ read
+msgid "<strong>Updated.</strong> <a target=\"_blank\" href=\"%s\">View</a>"
+msgstr ""
+
+#: functions.php:1890
+#@ read
+msgid "Updated."
+msgstr ""
+
+#: functions.php:1892
+#, php-format
+#@ read
+msgid "Restored to revision from %s"
+msgstr ""
+
+#: functions.php:1893
+#, php-format
+#@ read
+msgid "<strong>Published.</strong> <a target=\"_blank\" href=\"%s\">View</a>"
+msgstr ""
+
+#: functions.php:1894
+#@ read
+msgid "Saved."
+msgstr ""
+
+#: functions.php:1895
+#, php-format
+#@ read
+msgid "Submitted. <a target=\"_blank\" href=\"%s\">Preview</a>"
+msgstr ""
+
+#: functions.php:1896
+#, php-format
+#@ read
+msgid "Scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview</a>"
+msgstr ""
+
+#: functions.php:1899
+#, php-format
+#@ read
+msgid "<strong>Item draft updated.</strong> <a target=\"_blank\" href=\"%s\">Preview</a>"
+msgstr ""
+
+#: functions.php:1917
+#@ read
+msgid "Date"
+msgstr ""
+
+#: functions.php:1993
+#: functions.php:2015
+#@ read
+msgid "Update"
+msgstr ""
+
+#: functions.php:2008
+#: functions.php:2018
+#@ read
+msgid "Portfolio Tags"
+msgstr ""
+
+#: functions.php:2009
+#@ read
+msgid "Portfolio Tag"
+msgstr ""
+
+#: functions.php:2012
+#@ read
+msgid "Parent Portfolio Tag"
+msgstr ""
+
+#: functions.php:2013
+#@ read
+msgid "Parent Portfolio Tag:"
+msgstr ""
+
+#: functions.php:2017
+#@ read
+msgid "New Portfolio Tag Name"
+msgstr ""
+
+#: functions.php:2099
+#@ read
+msgid "Lightbox Video"
+msgstr ""
+
+#: functions.php:2111
+#@ read
+msgid "Direct URL"
+msgstr ""
+
+#: functions.php:2122
+#@ read
+msgid "Direct URL:"
+msgstr ""
+
+#: functions.php:2126
+#@ read
+msgid "Open link in new tab"
+msgstr ""
+
+#: functions.php:2149
+#@ read
+msgid "Thumbnail Size"
+msgstr ""
+
+#: functions.php:2155
+#@ read
+msgid "1x"
+msgstr ""
+
+#: functions.php:2159
+#@ read
+msgid "2x"
+msgstr ""
+
+#: functions.php:2179
+#@ read
+msgid "Details"
+msgstr ""
+
+#: functions.php:2438
+#, php-format
+#@ read
+msgid "You shall not place the %1$s template tag inside the loop on list/archives/search/etc templates."
+msgstr ""
+
+#: functions.php:2707
+#@ read
+msgid "First"
+msgstr ""
+
+#: functions.php:2916
+#@ read
+msgid "Last"
+msgstr ""
+
+#: functions.php:4576
+#@ read
+msgid "Colors"
+msgstr ""
+
+#: functions.php:4598
+#@ read
+msgid "Link Color"
+msgstr ""
+
+#: functions.php:4606
+#@ read
+msgid "Link Hover Color"
+msgstr ""
+
+#: functions.php:4613
+#@ read
+msgid "Fonts"
+msgstr ""
+
+#: single-post.php:118
+#@ read
+msgid "PREVIOUS POST"
+msgstr ""
+
+#: single-post.php:125
+#@ read
+msgid "NEXT POST"
+msgstr ""
+
+#: 404.php:14
+#@ read
+msgid "The page you are looking for was not found!"
+msgstr ""
+
+#: about-author.php:2
+#@ read
+msgid "WRITTEN BY"
+msgstr ""
+
+#: comments.php:70
+#@ read
+msgid "DROP A COMMENT"
+msgstr ""
+
+#: functions.php:366
+#: index.php:61
+#: index.php:81
+#: index.php:87
+#@ read
+msgid "Continue reading <span class=\"meta-nav\">→</span>"
+msgstr ""
+
+#: functions.php:603
+#@ read
+msgid "cvCard Template Pages"
+msgstr ""
+
+#: functions.php:605
+#@ read
+msgid "Use only cvCard widgets in here."
+msgstr ""
+
+#: functions.php:734
+#@ read
+msgid "Separate keywords with commas"
+msgstr ""
+
+#: functions.php:902
+#@ read
+msgid "Title Visibility"
+msgstr ""
+
+#: functions.php:965
+#@ read
+msgid "1) cvCard &#151; Custom Page"
+msgstr ""
+
+#: functions.php:966
+#@ read
+msgid "About me, resume, contact etc."
+msgstr ""
+
+#: functions.php:980
+#: functions.php:1113
+#: functions.php:1468
+#@ read
+msgid "Title:"
+msgstr ""
+
+#: functions.php:989
+#: functions.php:1122
+#: functions.php:1477
+#@ read
+msgid "All Pages:"
+msgstr ""
+
+#: functions.php:1090
+#@ read
+msgid "2) cvCard &#151; Blog Page"
+msgstr ""
+
+#: functions.php:1091
+#@ read
+msgid "Blog posts."
+msgstr ""
+
+#: functions.php:1156
+#: functions.php:1511
+#@ read
+msgid "Content Editor:"
+msgstr ""
+
+#: functions.php:1160
+#: functions.php:1516
+#@ read
+msgid "Enable content editor"
+msgstr ""
+
+#: functions.php:1167
+#: functions.php:1523
+#@ read
+msgid "Show content editor on the top"
+msgstr ""
+
+#: functions.php:1173
+#: functions.php:1529
+#@ read
+msgid "Layout:"
+msgstr ""
+
+#: functions.php:1187
+#@ read
+msgid "Show only posts with featured image"
+msgstr ""
+
+#: functions.php:1247
+#@ read
+msgid "LATEST FROM THE BLOG"
+msgstr ""
+
+#: functions.php:1411
+#: functions.php:1419
+#@ read
+msgid "SEE ALL POSTS"
+msgstr ""
+
+#: functions.php:1447
+#@ read
+msgid "3) cvCard &#151; Portfolio Page"
+msgstr ""
+
+#: functions.php:1448
+#@ read
+msgid "Portfolio items."
+msgstr ""
+
+#: functions.php:1595
+#@ read
+msgid "MY WORKS"
+msgstr ""
+
+#: functions.php:1639
+#@ read
+msgid "ALL"
+msgstr ""
+
+#: functions.php:2087
+#@ read
+msgid "Lightbox Featured Image"
+msgstr ""
+
+#: functions.php:2093
+#@ read
+msgid "Lightbox Gallery"
+msgstr ""
+
+#: functions.php:2105
+#@ read
+msgid "Lightbox Audio"
+msgstr ""
+
+#: functions.php:4350
+#@ read
+msgid "NAME"
+msgstr ""
+
+#: functions.php:4355
+#@ read
+msgid "EMAIL"
+msgstr ""
+
+#: functions.php:4360
+#@ read
+msgid "MESSAGE"
+msgstr ""
+
+#: functions.php:4365
+#@ read
+msgid "SEND"
+msgstr ""
+
+#: functions.php:4582
+#@ read
+msgid "Primary Color"
+msgstr ""
+
+#: functions.php:4590
+#@ read
+msgid "Secondary Color"
+msgstr ""
+
+#: functions.php:4662
+#@ read
+msgid "Base Style"
+msgstr ""
+
+#: header.php:186
+#: header.php:201
+#: header.php:224
+#: header.php:241
+#: header.php:262
+#: header.php:279
+#@ read
+msgid "search"
+msgstr ""
+
+#: header.php:197
+#: header.php:220
+#: header.php:237
+#: header.php:258
+#: header.php:275
+#@ read
+msgid "go to home"
+msgstr ""
+
+#: header.php:216
+#@ read
+msgid "back to portfolio"
+msgstr ""
+
+#: header.php:254
+#@ read
+msgid "back to blog"
+msgstr ""
+
+#: header.php:290
+#@ read
+msgid "ENTER KEYWORD"
+msgstr ""
+
+#: header.php:292
+#@ read
+msgid "→"
+msgstr ""
+
+#: image.php:35
+#@ read
+msgid "PREVIOUS"
+msgstr ""
+
+#: image.php:42
+#@ read
+msgid "NEXT"
+msgstr ""
+
+#: part-pagination.php:19
+#@ read
+msgid "<span class=\"meta-nav\">←</span> Older posts"
+msgstr ""
+
+#: part-pagination.php:21
+#@ read
+msgid "Newer posts <span class=\"meta-nav\">→</span>"
+msgstr ""
+
+#: single-post.php:92
+#@ read
+msgid "TAGS"
+msgstr ""
+
